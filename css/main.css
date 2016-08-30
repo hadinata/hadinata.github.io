@@ -1,0 +1,48 @@
+html{
+    font-family:"futura", sans-serif;
+    background: url(../images/background1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    padding: 10px;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    font-weight: 100;
+    margin: 0;
+}
+
+.content {
+    padding: 10px;
+}
+
+.links {
+    text-transform: lowercase;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
