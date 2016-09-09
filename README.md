@@ -1,3 +1,3 @@
-# kurinton.github.io
+# hadinata.github.io
 
 My personal website - made with simple HTML & CSS.
