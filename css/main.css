@@ -1,61 +1,123 @@
-html{
-    font-family:"futura", sans-serif;
-    background: url(../images/background1.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 25px;
+  background-color: #FDFDFD;
+  position: relative;
 }
 
-.main-box {
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.top-bar {
+  height:50px;
 }
 
-.header {
-    padding: 10px;
+.heading {
+  position: absolute;
+  left: 0px;
+  width: 50%;
 }
 
-.header h1{
-    text-transform: uppercase;
-    font-weight: normal;
-    text-align: center;
-    font-weight: 100;
-    margin: 0;
-}
-
-.content {
-    padding: 10px;
+.nav {
+  align-content: right;
+  position: absolute;
+  right: 0px;
+  width: 50%;
 }
 
 .links {
-    text-transform: lowercase;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  text-transform: lowercase;
+  padding: 0;
+  margin: 0;
+  font-family: futura, helvetica, sans-serif;
+  font-size: 11.7pt;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .links li {
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  display: inline-block;
+  padding-right: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    opacity: 0.6;
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
 }
 
 a:hover {
-    opacity: 1.0;
+  opacity: 1.0;
+}
+
+#title {
+  font-family: futura, helvetica, sans-serif;
+  font-size: 24px;
+}
+
+#subtitle {
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.instructions {
+  margin-top: 5px;
+  font-family: menlo;
+  font-size: 12px;
+  color: #808080;
+}
+
+#cli {
+  font-family: menlo, sans-serif;
+  font-size: 12px;
+  background-color: #F1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: scroll; 
+  height: 400px;
+}
+
+.pre {
+  font-weight: bold;
+}
+
+#command_input {
+  border: none;
+  font-family: menlo, sans-serif;
+  font-size: 12px;
+  background-color: #f1f1f1;
+  width: calc(100% - 130px);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.help-line {
+  position: relative;
+}
+
+.help-text {
+  position: absolute;
+  left: 100px;
+}
+
+.help-index {
+  width: 50px;
+  position: absolute;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.acknowledgement {
+  font-family: menlo, sans-serif;
+  font-size: 10px;
+  align-content: right;
+  position: absolute;
+  right: 0px;
+  margin-top: 5px;
 }
